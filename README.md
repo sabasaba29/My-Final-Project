@@ -1,1 +1,1 @@
-# My-Final-Project
+This is my final project of HTML/CSS courses in Digital Academy to get a certificate as a proof of my knowledge !

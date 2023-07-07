@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('/Fonts/rubik/Rubik-Regular.eot');
+    src: url('/Fonts/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/rubik/Rubik-Regular.woff2') format('woff2'),
+        url('/Fonts/rubik/Rubik-Regular.woff') format('woff'),
+        url('/Fonts/rubik/Rubik-Regular.ttf') format('truetype'),
+        url('/Fonts/rubik/Rubik-Regular.svg#Rubik-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/Fonts/inter/Inter-Regular.eot');
+    src: url('/Fonts/inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/inter/Inter-Regular.woff2') format('woff2'),
+        url('/Fonts/inter/Inter-Regular.woff') format('woff'),
+        url('/Fonts/inter/Inter-Regular.ttf') format('truetype'),
+        url('/Fonts/inter/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
