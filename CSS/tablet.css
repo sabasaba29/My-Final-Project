@@ -1,0 +1,254 @@
+@media (max-width:1530px) {
+    .section_2 {
+        width: 60%;
+    }
+
+    .section_6 {
+        width: 85%;
+    }
+
+    .p2_section_2 {
+        height: 1120px;
+    }
+
+    .p2_section_2_grid {
+        gap: 40px;
+        grid-template-rows: 320px 320px;
+        height: 700px;
+    }
+
+    .section_3_grid {
+        width: 80%;
+    }
+}
+
+@media (max-width:1440px) {
+    .section_4_card {
+        width: 23%;
+    }
+
+    .section_3 {
+        height: 850px;
+        padding-top: 50px;
+    }
+
+    .section_3_grid {
+        gap: 30px;
+    }
+}
+
+@media (max-width:1350px) {
+    .section_1_div {
+        width: 62%;
+    }
+
+    .section_2 {
+        width: 70%;
+    }
+
+    .section_3 {
+        height: 800px;
+        padding-top: 40px;
+    }
+
+    .section_3_grid {
+        width: 90%;
+    }
+
+    .section_6 {
+        width: 84%;
+    }
+
+    .section_6_div_1 {
+        column-gap: 16px;
+    }
+
+    .section_6_div_1_div_s {
+        height: 180px;
+        width: 33%;
+    }
+
+    .section_6_div_1_div_s_h3 {
+        font-size: 20px;
+    }
+
+    .p2_section_2 {
+        height: 1000px;
+        border: 1px solid red;
+    }
+
+    .p2_section_2_grid {
+        grid-template-rows: 300px 300px;
+        height: 660px;
+    }
+
+    .p2_section_2_list_div {
+        height: 40px;
+        min-width: 250px;
+    }
+}
+
+@media (max-width:1200px) {
+    .section_4_card_4 {
+        display: none;
+    }
+
+    .section_4_card {
+        width: 30%;
+    }
+
+    .p2_section_2 {
+        height: 940px;
+        border: 1px solid red;
+    }
+
+    .p2_section_2_grid {
+        grid-template-rows: 280px 280px;
+        height: 600px;
+        gap: 30px;
+        border: 1px solid red;
+    }
+}
+
+@media (max-width:1100px) {
+    .section_6_div_1 {
+        column-gap: 12px;
+    }
+
+    .section_6_div_1_div_s {
+        height: 180px;
+        width: 33%;
+    }
+
+    .section_6_div_1_div_s_h3 {
+        font-size: 18px;
+    }
+
+    .p2_section_2 {
+        height: 900px;
+        margin: 100px auto;
+        border: 1px solid red;
+    }
+
+    .p2_section_2_h2_div {
+        margin: 2rem auto 3rem;
+    }
+
+    .p2_section_2_grid {
+        grid-template-rows: 260px 260px;
+        height: 560px;
+        gap: 30px;
+        border: 1px solid red;
+    }
+}
+
+@media (max-width:1001px) {
+    header {
+        padding-inline: 0;
+        justify-content: space-evenly;
+    }
+
+    .section_2 {
+        width: 80%;
+    }
+
+    .section_3 {
+        height: 700px;
+        padding-top: 30px;
+    }
+
+    .section_3_h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .section_3_grid {
+        grid-template-rows: 282px 220px;
+    }
+
+    .section_6 {
+        height: 660px;
+    }
+
+    .section_6_div_1_div {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .section_6_div_1_div_s {
+        width: 45%;
+        height: 200px;
+    }
+
+    .p2_section_2 {
+        height: 810px;
+        border: 1px solid red;
+    }
+
+    .p2_section_2_h2_div_h2 {
+        font-size: 30px;
+    }
+
+    .p2_section_2_grid {
+        grid-template-rows: 220px 220px;
+        height: 480px;
+        gap: 30px;
+        border: 1px solid green;
+    }
+
+    .p2_section_2_list_div {
+        height: 32px;
+    }
+}
+
+@media (max-width:900px) {
+    .fa-bars {
+        display: block;
+        font-size: 24px;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .main_logo {
+        height: 70px;
+    }
+
+    .main_logo_span {
+        display: block;
+    }
+
+    .section_4_card_3 {
+        display: none;
+    }
+
+    .section_1_div {
+        width: 80%;
+    }
+
+    .section_2 {
+        flex-wrap: wrap;
+        width: 70%;
+        height: 500px;
+        row-gap: 20px;
+        border: 2px solid green;
+    }
+
+    .figure_a {
+        width: 38%;
+    }
+
+    .section_3 {
+        height: 600px;
+    }
+
+    .section_3_grid {
+        grid-template-rows: 242px 180px;
+    }
+
+    .section_4_card {
+        width: 45%;
+    }
+}

@@ -51,7 +51,7 @@ header {
     width: 0;
     height: 2px;
     background-color: #ffffff;
-    transition: initial;
+    transition: 0.2s;
 }
 
 .header_li:hover {
@@ -195,7 +195,7 @@ header {
 
 .section_3_grid {
     margin: auto;
-    width: 66%;
+    width: 70%;
     height: 642px;
     display: grid;
     gap: 60px;
@@ -313,6 +313,7 @@ header {
 
 .card_price {
     width: 30%;
+    min-width: 60px;
     height: 48px;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -415,11 +416,11 @@ header {
     height: inherit;
     display: flex;
     justify-content: space-between;
-    column-gap: 44px;
+    column-gap: 20px;
 }
 
 .section_6_div_1_div_s {
-    width: 440px;
+    width: 30%;
     height: 150px;
     border-radius: 8px;
     padding-top: 4px;
@@ -427,6 +428,7 @@ header {
     display: flex;
     flex-direction: column;
     row-gap: 22px;
+    border: 2px solid red;
 }
 
 .section_6_div_1_div_s_h3 {
@@ -557,6 +559,7 @@ footer {
 
 /* p2_section_2 */
 .p2_section_2 {
+    max-width: 90%;
     width: 1440px;
     height: 1200px;
     margin: 160px auto;
@@ -564,18 +567,22 @@ footer {
 
 .p2_section_2_search_div {
     width: 66%;
+    min-width: 556px;
     height: 56px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    column-gap: 16px;
+    border: 1px solid red;
 }
 
 .p2_section_2_left_div {
-    width: 30%;
+    width: 254px;
     height: 100%;
     display: flex;
     align-items: center;
     column-gap: 10px;
+    border: 1px solid red;
 }
 
 .p2_section_2_left_div_label {
@@ -583,6 +590,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     color: #402101;
+    width: 160px;
 }
 
 #p2_section_2_left_div_select {
@@ -597,6 +605,7 @@ footer {
 
 .p2_section_2_right_form {
     width: 70%;
+    min-width: 286px;
     height: 100%;
     border-radius: 10px;
     border: 2px solid #402101;
@@ -607,6 +616,7 @@ footer {
     width: 70%;
     height: 100%;
     padding: 18px;
+    font-size: 18px;
     background: transparent;
     border: none;
     outline: none;
@@ -794,6 +804,7 @@ footer {
     background-image: url("../Images/contact/main_cover.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
 }
@@ -854,6 +865,11 @@ footer {
     border: none;
     background-color: #D5906E;
     color: #ffffff;
+}
+
+.p3_section_1_button:hover{
+    cursor: pointer;
+    background-color: #D5906E;
 }
 
 /* p3_section_2 */
