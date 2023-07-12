@@ -74,7 +74,6 @@
 
     .p2_section_2 {
         height: 1000px;
-        border: 1px solid red;
     }
 
     .p2_section_2_grid {
@@ -99,14 +98,12 @@
 
     .p2_section_2 {
         height: 940px;
-        border: 1px solid red;
     }
 
     .p2_section_2_grid {
         grid-template-rows: 280px 280px;
         height: 600px;
         gap: 30px;
-        border: 1px solid red;
     }
 }
 
@@ -127,7 +124,6 @@
     .p2_section_2 {
         height: 900px;
         margin: 100px auto;
-        border: 1px solid red;
     }
 
     .p2_section_2_h2_div {
@@ -138,7 +134,6 @@
         grid-template-rows: 260px 260px;
         height: 560px;
         gap: 30px;
-        border: 1px solid red;
     }
 }
 
@@ -183,7 +178,6 @@
 
     .p2_section_2 {
         height: 810px;
-        border: 1px solid red;
     }
 
     .p2_section_2_h2_div_h2 {
@@ -194,7 +188,6 @@
         grid-template-rows: 220px 220px;
         height: 480px;
         gap: 30px;
-        border: 1px solid green;
     }
 
     .p2_section_2_list_div {
@@ -208,7 +201,7 @@
         font-size: 24px;
     }
 
-    .header_nav {
+    .header_nav{
         display: none;
     }
 
@@ -216,7 +209,7 @@
         height: 70px;
     }
 
-    .main_logo_span {
+    .main_logo_header_span {
         display: block;
     }
 
@@ -233,7 +226,6 @@
         width: 70%;
         height: 500px;
         row-gap: 20px;
-        border: 2px solid green;
     }
 
     .figure_a {
@@ -242,6 +234,7 @@
 
     .section_3 {
         height: 600px;
+        margin: 100px auto;
     }
 
     .section_3_grid {
@@ -250,5 +243,35 @@
 
     .section_4_card {
         width: 45%;
+    }
+
+    .p2_section_2 {
+        height: 950px;
+    }
+
+    .p2_section_2_h2_div{
+        width: 90%;
+    }
+
+    .p2_section_2_card_5,
+    .p2_section_2_card_6,
+    .p2_section_2_card_7,
+    .p2_section_2_card_8 {
+        display: none;
+    }
+
+    .p2_section_2_grid {
+        height: 620px;
+        justify-content: space-around;
+        grid-template-areas:
+            "p2_section_2_card_1 p2_section_2_card_2"
+            "p2_section_2_card_3 p2_section_2_card_4";
+        grid-template-columns: 0.4fr 0.4fr;
+        grid-template-rows: 290px 290px;
+    }
+
+    .p3_section_1 {
+        padding-left: 0;
+        justify-content: center;
     }
 }
